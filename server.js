@@ -10,9 +10,9 @@ const Role = db.role;
 app.use(cors());
 
 app.use(bodyParser.json());
-
 db.mongoose
   .connect(
+  
     `mongodb://${process.env.HOST}:${process.env.DB_PORT}/${process.env.DB}`,
     {
       useNewUrlParser: true,

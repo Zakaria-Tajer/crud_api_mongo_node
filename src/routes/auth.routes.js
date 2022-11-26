@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { verifySignUp } = require("../middlewares");
-const controller = require("../controllers/auth.controller");
+const controller = require("../controllers/Auth.controller");
 
 const url = "/api/v1/mekna7";
 module.exports = function (app) {
