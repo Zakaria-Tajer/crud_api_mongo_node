@@ -3,11 +3,11 @@ const app = express();
 const bodyParser = require("body-parser");
 const route = require("./src/routes/auth.routes");
 const cors = require("cors");
+require("dotenv").config();
 const db = require("./src/models");
 const Role = db.role;
 
 app.use(cors());
-require("dotenv").config();
 
 app.use(bodyParser.json());
 

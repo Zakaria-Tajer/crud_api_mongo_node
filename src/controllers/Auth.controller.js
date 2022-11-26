@@ -24,6 +24,7 @@ exports.signup = (req, res) => {
     if (req.body.roles) {
       Role.find(
         {
+          /* A mongoose query operator. It is used to match a set of values for a specific key. */
           name: { $in: req.body.roles },
         },
         (err, roles) => {
