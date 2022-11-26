@@ -1,4 +1,4 @@
-# Online-bus-ticket-reservation
+# Crud_api
 
 ## Introduction
 
@@ -103,10 +103,3 @@ npm run dev
    - The request body should contain the following fields: <br />
      - email <br />
      - password <br />
-
-## Author
-
-- [Halazv2](https://github.com/Halazv2 "Halazv2")
-
-
-Don't forget to give a ⭐ if you like this project.
